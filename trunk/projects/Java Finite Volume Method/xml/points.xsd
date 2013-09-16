@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.tulipallo.org/xml/jfvm/points"
+           elementFormDefault="qualified">
+    <xs:complexType name="pointType">
+        <xs:attribute name="ref" type="xs:long"   use="optional" />
+        <xs:attribute name="id"  type="xs:long"   use="required" />
+        <xs:attribute name="x"   type="xs:double" use="required" />
+        <xs:attribute name="y"   type="xs:double" use="required" />
+        <xs:attribute name="z"   type="xs:double" use="required" />
+    </xs:complexType>
+    <xs:element name="point" type="pointType" />
+    
+    <xs:complexType name="pointsType">
+        <xs:sequence>
+            <xs:element ref="point" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="points" type="pointsType" />
+</xs:schema>
