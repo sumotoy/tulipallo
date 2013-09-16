@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f3" displayName="io" projectFiles="true">
+        <logicalFolder name="f1" displayName="input" projectFiles="true">
+          <itemPath>Button.cpp</itemPath>
+          <itemPath>Button.h</itemPath>
+          <itemPath>ButtonDownEvent.cpp</itemPath>
+          <itemPath>ButtonDownEvent.h</itemPath>
+          <itemPath>ButtonPressEvent.cpp</itemPath>
+          <itemPath>ButtonPressEvent.h</itemPath>
+          <itemPath>ButtonToggledEvent.cpp</itemPath>
+          <itemPath>ButtonToggledEvent.h</itemPath>
+          <itemPath>ButtonUpEvent.cpp</itemPath>
+          <itemPath>ButtonUpEvent.h</itemPath>
+          <itemPath>IButtonCommand.cpp</itemPath>
+          <itemPath>IButtonCommand.h</itemPath>
+          <itemPath>IButtonListener.cpp</itemPath>
+          <itemPath>IButtonListener.h</itemPath>
+        </logicalFolder>
+        <itemPath>GPIO.cpp</itemPath>
+        <itemPath>GPIO.h</itemPath>
+        <itemPath>GPIOException.cpp</itemPath>
+        <itemPath>GPIOException.h</itemPath>
+        <itemPath>GPIOFactorySingleton.cpp</itemPath>
+        <itemPath>GPIOFactorySingleton.h</itemPath>
+        <itemPath>IGPIOFactory.cpp</itemPath>
+        <itemPath>IGPIOFactory.h</itemPath>
+        <itemPath>IGPIOFactoryProvider.cpp</itemPath>
+        <itemPath>IGPIOFactoryProvider.h</itemPath>
+        <itemPath>IStateChangedListener.cpp</itemPath>
+        <itemPath>IStateChangedListener.h</itemPath>
+        <itemPath>Pin.cpp</itemPath>
+        <itemPath>Pin.h</itemPath>
+        <itemPath>StateChangedEvent.cpp</itemPath>
+        <itemPath>StateChangedEvent.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="net" projectFiles="true">
+        <itemPath>DataStream.cpp</itemPath>
+        <itemPath>DataStream.h</itemPath>
+        <itemPath>DatagramPacket.cpp</itemPath>
+        <itemPath>DatagramPacket.h</itemPath>
+        <itemPath>DatagramSocket.cpp</itemPath>
+        <itemPath>DatagramSocket.h</itemPath>
+        <itemPath>DatagramSocketClient.cpp</itemPath>
+        <itemPath>DatagramSocketClient.h</itemPath>
+        <itemPath>DatagramSocketServer.cpp</itemPath>
+        <itemPath>DatagramSocketServer.h</itemPath>
+        <itemPath>INetworkAddress.cpp</itemPath>
+        <itemPath>INetworkAddress.h</itemPath>
+        <itemPath>InternetAddress.cpp</itemPath>
+        <itemPath>InternetAddress.h</itemPath>
+        <itemPath>SocketException.cpp</itemPath>
+        <itemPath>SocketException.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="util" projectFiles="true">
+        <logicalFolder name="f1" displayName="concurrent" projectFiles="true">
+          <itemPath>Thread.cpp</itemPath>
+          <itemPath>Thread.h</itemPath>
+          <itemPath>ThreadException.cpp</itemPath>
+          <itemPath>ThreadException.h</itemPath>
+        </logicalFolder>
+        <itemPath>Clock.cpp</itemPath>
+        <itemPath>Clock.h</itemPath>
+        <itemPath>ClockException.cpp</itemPath>
+        <itemPath>ClockException.h</itemPath>
+        <itemPath>ClockStartEvent.cpp</itemPath>
+        <itemPath>ClockStartEvent.h</itemPath>
+        <itemPath>ClockStopEvent.cpp</itemPath>
+        <itemPath>ClockStopEvent.h</itemPath>
+        <itemPath>ClockTickEvent.cpp</itemPath>
+        <itemPath>ClockTickEvent.h</itemPath>
+        <itemPath>Context.cpp</itemPath>
+        <itemPath>Context.h</itemPath>
+        <itemPath>Epsilon.cpp</itemPath>
+        <itemPath>Epsilon.h</itemPath>
+        <itemPath>IClockListener.cpp</itemPath>
+        <itemPath>IClockListener.h</itemPath>
+        <itemPath>KeyNotFoundException.cpp</itemPath>
+        <itemPath>KeyNotFoundException.h</itemPath>
+        <itemPath>ObjectFactory.cpp</itemPath>
+        <itemPath>ObjectFactory.h</itemPath>
+        <itemPath>ObjectFactoryException.cpp</itemPath>
+        <itemPath>ObjectFactoryException.h</itemPath>
+        <itemPath>ObjectFactoryMethod.cpp</itemPath>
+        <itemPath>ObjectFactoryMethod.h</itemPath>
+        <itemPath>Properties.cpp</itemPath>
+        <itemPath>Properties.h</itemPath>
+        <itemPath>PropertiesException.cpp</itemPath>
+        <itemPath>PropertiesException.h</itemPath>
+      </logicalFolder>
+      <itemPath>Event.cpp</itemPath>
+      <itemPath>Event.h</itemPath>
+      <itemPath>Exception.cpp</itemPath>
+      <itemPath>Exception.h</itemPath>
+      <itemPath>ExceptionEvent.cpp</itemPath>
+      <itemPath>ExceptionEvent.h</itemPath>
+      <itemPath>IExceptionListener.cpp</itemPath>
+      <itemPath>IExceptionListener.h</itemPath>
+      <itemPath>IllegalArgumentException.cpp</itemPath>
+      <itemPath>IllegalArgumentException.h</itemPath>
+      <itemPath>IllegalStateException.cpp</itemPath>
+      <itemPath>IllegalStateException.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>-pthread -lrt -lwiringPi -lwiringPiDev -ldl</commandLine>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/local/lib/libwiringPi.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/lib/libwiringPiDev.so</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-pthread -lrt -lwiringPi -lwiringPiDev -ldl</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonDownEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonDownEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonPressEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonPressEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonToggledEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonToggledEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonUpEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonUpEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Clock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockStartEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockStartEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockStopEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockStopEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockTickEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockTickEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Context.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Context.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DataStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramPacket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramPacket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramSocketClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramSocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Epsilon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Epsilon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Exception.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExceptionEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ExceptionEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPIOException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPIOException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPIOFactorySingleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPIOFactorySingleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IButtonCommand.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IButtonCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IButtonListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IButtonListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IClockListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IClockListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IExceptionListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IExceptionListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IGPIOFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IGPIOFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IGPIOFactoryProvider.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IGPIOFactoryProvider.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="INetworkAddress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="INetworkAddress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IStateChangedListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IStateChangedListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IllegalArgumentException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IllegalArgumentException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IllegalStateException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IllegalStateException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InternetAddress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InternetAddress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KeyNotFoundException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KeyNotFoundException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ObjectFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ObjectFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ObjectFactoryException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ObjectFactoryException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ObjectFactoryMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ObjectFactoryMethod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Properties.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Properties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PropertiesException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PropertiesException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StateChangedEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateChangedEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ThreadException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ThreadException.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Button.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Button.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonDownEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonDownEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonPressEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonPressEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonToggledEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonToggledEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ButtonUpEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ButtonUpEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Clock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockStartEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockStartEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockStopEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockStopEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClockTickEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClockTickEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Context.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Context.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DataStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramPacket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramPacket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramSocketClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramSocketClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatagramSocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatagramSocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Epsilon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Epsilon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Exception.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExceptionEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ExceptionEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPIO.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPIOException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPIOException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPIOFactorySingleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPIOFactorySingleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IButtonCommand.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IButtonCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IButtonListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IButtonListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IClockListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IClockListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IExceptionListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IExceptionListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IGPIOFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IGPIOFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IGPIOFactoryProvider.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IGPIOFactoryProvider.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="INetworkAddress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="INetworkAddress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IStateChangedListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IStateChangedListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IllegalArgumentException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IllegalArgumentException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IllegalStateException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IllegalStateException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InternetAddress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InternetAddress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KeyNotFoundException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KeyNotFoundException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ObjectFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ObjectFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ObjectFactoryException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ObjectFactoryException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ObjectFactoryMethod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ObjectFactoryMethod.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Properties.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Properties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PropertiesException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PropertiesException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StateChangedEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateChangedEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ThreadException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ThreadException.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
