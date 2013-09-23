@@ -268,9 +268,9 @@ public class Line {
     @Override
     public String toString() {
         StringBuilder buffer = new StringBuilder();
-        buffer.append(this.getClass().getName()).append('{');
-        buffer.append("a=").append(this.a).append(", b=").append(this.b);
-        buffer.append('}');
+        buffer.append('{').append(Line.class.getCanonicalName()).append('{');
+        buffer.append("a=").append(this.a).append(",b=").append(this.b);
+        buffer.append("}}");
         return buffer.toString();
     }
 }

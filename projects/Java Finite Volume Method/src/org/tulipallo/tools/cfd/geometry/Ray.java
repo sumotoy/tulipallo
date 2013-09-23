@@ -126,4 +126,13 @@ public class Ray {
         hash = 31 * hash + (this.b != null ? this.b.hashCode() : 0);
         return hash;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder buffer = new StringBuilder();
+        buffer.append('{').append(Ray.class.getCanonicalName()).append('{');
+        buffer.append("a=").append(this.a);
+        buffer.append(",b=").append(this.b).append("}}");;
+        return buffer.toString();
+    }
 }
