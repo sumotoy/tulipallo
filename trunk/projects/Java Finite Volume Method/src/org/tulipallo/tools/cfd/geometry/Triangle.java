@@ -291,8 +291,8 @@ public class Triangle {
             if(index < 2)
                 buffer.append(", ");
         }
-        buffer.append(", area=").append(this.area);
-        buffer.append(", plane=").append(this.plane).append('}');
+        buffer.append(",area=").append(this.area);
+        buffer.append(",plane=").append(this.plane).append('}');
         return buffer.toString();
     }
 }
