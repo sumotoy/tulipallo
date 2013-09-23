@@ -366,7 +366,7 @@ public class Plane {
         buffer.append('{').append(Plane.class.getCanonicalName()).append('{');
         buffer.append("point=").append(this.point);
         buffer.append(",normal=").append(this.normal);
-        buffer.append(",d=").append(this.d)append("}}");
+        buffer.append(",d=").append(this.d).append("}}");
         return buffer.toString();
     }
 }
