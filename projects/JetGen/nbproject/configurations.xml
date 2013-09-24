@@ -14,6 +14,16 @@
                    projectFiles="true">
       <itemPath>JetGen.cpp</itemPath>
       <itemPath>JetGen.h</itemPath>
+      <itemPath>Object.cpp</itemPath>
+      <itemPath>Object.h</itemPath>
+      <itemPath>Point3d.cpp</itemPath>
+      <itemPath>Point3d.h</itemPath>
+      <itemPath>Subject.cpp</itemPath>
+      <itemPath>Subject.h</itemPath>
+      <itemPath>Target.cpp</itemPath>
+      <itemPath>Target.h</itemPath>
+      <itemPath>Triangle.cpp</itemPath>
+      <itemPath>Triangle.h</itemPath>
       <itemPath>predicates.cpp</itemPath>
       <itemPath>tetgen.cpp</itemPath>
       <itemPath>tetgen.h</itemPath>
@@ -51,6 +61,26 @@
       </item>
       <item path="JetGen.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point3d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Point3d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Subject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Subject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Target.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Target.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Triangle.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="predicates.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="tetgen.cpp" ex="false" tool="1" flavor2="0">
@@ -82,6 +112,26 @@
       <item path="JetGen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="JetGen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point3d.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Point3d.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Subject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Subject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Target.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Target.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Triangle.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="predicates.cpp" ex="false" tool="1" flavor2="0">
       </item>

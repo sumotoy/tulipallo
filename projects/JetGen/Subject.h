@@ -17,11 +17,10 @@
  *
  */
 
-#ifndef JETGEN_H
-#define	JETGEN_H
+#ifndef SUBJECT_H
+#define	SUBJECT_H
 
-#include <jni.h>
-#include "tetgen.h"
+#include "Target.h"
 
 /**
  * This class is a wrapper around the Native tetgen libraries created by 
@@ -41,19 +40,15 @@
  * @author Robert R Murrell
  * @version 1.0 beta
  */
-class JetGen {
+class Subject : public Target {
 public:
-    JetGen();
+    Subject(jclass c, jobject o, JNIEnv* e);
     
-    JNIEXPORT jobject JNICALL Java_org_tulipallo_tools_cfd_fvm_mesh_tetrahedral_JetGen_create(JNIEnv* env, 
-                jobject caller, jobject subject);
+    virtual ~Subject();
     
-    virtual ~JetGen();
+private:
 
-protected:
-    virtual void    createInput(tetgenio* in, jobject* subject);
-    virtual jobject createMesh(tetgenio* out);
 };
 
-#endif	/* JETGEN_H */
+#endif	/* SUBJECT_H */
 
