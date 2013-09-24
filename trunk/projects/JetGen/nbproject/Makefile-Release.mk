@@ -36,6 +36,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/JetGen.o \
+	${OBJECTDIR}/Object.o \
+	${OBJECTDIR}/Point3d.o \
+	${OBJECTDIR}/Subject.o \
+	${OBJECTDIR}/Target.o \
+	${OBJECTDIR}/Triangle.o \
 	${OBJECTDIR}/predicates.o \
 	${OBJECTDIR}/tetgen.o
 
@@ -68,6 +73,31 @@ ${OBJECTDIR}/JetGen.o: JetGen.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/JetGen.o JetGen.cpp
+
+${OBJECTDIR}/Object.o: Object.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Object.o Object.cpp
+
+${OBJECTDIR}/Point3d.o: Point3d.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Point3d.o Point3d.cpp
+
+${OBJECTDIR}/Subject.o: Subject.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Subject.o Subject.cpp
+
+${OBJECTDIR}/Target.o: Target.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Target.o Target.cpp
+
+${OBJECTDIR}/Triangle.o: Triangle.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Triangle.o Triangle.cpp
 
 ${OBJECTDIR}/predicates.o: predicates.cpp 
 	${MKDIR} -p ${OBJECTDIR}

@@ -17,11 +17,10 @@
  *
  */
 
-#ifndef JETGEN_H
-#define	JETGEN_H
+#ifndef POINT3D_H
+#define	POINT3D_H
 
-#include <jni.h>
-#include "tetgen.h"
+#include "Object.h"
 
 /**
  * This class is a wrapper around the Native tetgen libraries created by 
@@ -41,19 +40,14 @@
  * @author Robert R Murrell
  * @version 1.0 beta
  */
-class JetGen {
+class Point3d {
 public:
-    JetGen();
+    Point3d(jclass c, jobject o, JNIEnv* e);
     
-    JNIEXPORT jobject JNICALL Java_org_tulipallo_tools_cfd_fvm_mesh_tetrahedral_JetGen_create(JNIEnv* env, 
-                jobject caller, jobject subject);
-    
-    virtual ~JetGen();
+    virtual ~Point3d();
+private:
 
-protected:
-    virtual void    createInput(tetgenio* in, jobject* subject);
-    virtual jobject createMesh(tetgenio* out);
 };
 
-#endif	/* JETGEN_H */
+#endif	/* POINT3D_H */
 
