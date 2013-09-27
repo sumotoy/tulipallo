@@ -131,8 +131,8 @@ public class Ray {
     public String toString() {
         StringBuilder buffer = new StringBuilder();
         buffer.append('{').append(Ray.class.getCanonicalName()).append('{');
-        buffer.append("a=").append(this.a);
-        buffer.append(",b=").append(this.b).append("}}");;
+        buffer.append("a:").append(this.a);
+        buffer.append(",b:").append(this.b).append("}}");;
         return buffer.toString();
     }
 }

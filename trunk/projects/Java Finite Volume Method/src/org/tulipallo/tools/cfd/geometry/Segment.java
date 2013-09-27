@@ -387,10 +387,10 @@ public class Segment {
     public String toString() {
         StringBuilder buffer = new StringBuilder();
        buffer.append('{').append(Segment.class.getCanonicalName()).append('{');
-        buffer.append("a=").append(this.a);
-        buffer.append(",b=").append(this.b);
-        buffer.append(",center=").append(this.center);
-        buffer.append(",length=").append(this.length).append("}}");
+        buffer.append("a:").append(this.a);
+        buffer.append(",b:").append(this.b);
+        buffer.append(",center:").append(this.center);
+        buffer.append(",length:").append(this.length).append("}}");
         return buffer.toString();
     }
 }

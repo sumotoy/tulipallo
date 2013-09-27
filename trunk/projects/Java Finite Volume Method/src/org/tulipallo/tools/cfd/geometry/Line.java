@@ -269,7 +269,7 @@ public class Line {
     public String toString() {
         StringBuilder buffer = new StringBuilder();
         buffer.append('{').append(Line.class.getCanonicalName()).append('{');
-        buffer.append("a=").append(this.a).append(",b=").append(this.b);
+        buffer.append("a:").append(this.a).append(",b:").append(this.b);
         buffer.append("}}");
         return buffer.toString();
     }
